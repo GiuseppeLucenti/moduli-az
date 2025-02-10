@@ -29,17 +29,6 @@ variable "subnet_test_1_address_prefix" {
   description = "The address prefix for the subnet"
   type        = string
 }
-
-variable "subnet_test_2_name" {
-  description = "The name of the subnet"
-  type        = string
-}
-
-variable "subnet_test_2_address_prefix" {
-  description = "The address prefix for the subnet"
-  type        = string
-}
-
 ##########################################################  VM
 
 variable "nic_test_1_name" {
@@ -128,16 +117,6 @@ variable "admin_username" {
 }
 
 ##########################################################  KEY VAULT
-
-variable "sa_test_1_account_tier" {
-  description = "The account tier for the sa test 1"
-  type        = string
-}
-
-variable "sa_test_1_account_replication_type" {
-  description = "The account replication type for the sa test 1"
-  type        = string
-}
 
 variable "key_vault_test_1_name" {
   description = "The name of the key vault"
